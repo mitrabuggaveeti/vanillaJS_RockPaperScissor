@@ -58,7 +58,7 @@ const game = () => {
     playerScore.textContent = pScore;
     computerScore.textContent = cScore;
 
-    if(pScore>=5 || cScore>=5){
+    if(pScore>=3 || cScore>=3){
       
       match.classList.remove("fadeIn");
       match.classList.add("fadeOut");
